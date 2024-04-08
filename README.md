@@ -1,6 +1,6 @@
 # sierra_flashing_by_path
 Flasher machine to flash automatically by USB paths
-This script make to updates multiple Sierra Wireless EM9191 modems one by one by using the `-P` flag of USB path, and solves the issue that unit change the ttyUSB ports after reboot in Linux system.
+This script make to updates multiple Sierra Wireless EM9191 modems one by one by using the `-P` flag of USB path, and solves the issue that the unit changes the ttyUSB ports after reboot in the Linux system.
 
 # usage
 
@@ -10,7 +10,7 @@ Download the binary fwfwdl from [source.sierrawireless](https://source.sierrawir
 2. update the `fw_dir`, `firmware`, `nvu` paths if needed.
 3. omit `rc = call("./modems_detection.sh")` if not in used
 4. run the py file by `python3.8 flashing_em9191_generic_v_03.09.11_path.py`
-5. firt it will remove by using the
+5. First it will remove by using the
 
 # license
 This program is free software.
