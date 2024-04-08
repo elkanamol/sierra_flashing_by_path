@@ -1,4 +1,5 @@
-#Julius Kaplan 08.05.2023 Flashing 03.09.11.00-001_GENERIC:
+# write by Elkana Molson elkanamol@gmail.com 08042024
+
 import subprocess
 from subprocess import call
 from subprocess import check_call
